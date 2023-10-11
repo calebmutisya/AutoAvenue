@@ -12,13 +12,23 @@
     },
     {
       "id": 2,
-      "model": "Toyota",
-      "price": 2500000,
+      "model": "Toyota Calmusa",
+      "price": "2500000",
       "engine": "Diesel",
-      "cc": 500,
-      "mileage": 240,
+      "cc": "500",
+      "mileage": "240",
       "image": "https://img.freepik.com/free-photo/mini-coupe-high-speed-drive-road-with-front-lights_114579-5040.jpg?w=1380&t=st=1696942574~exp=1696943174~hmac=5a8c331fe3f7024def7eded7b3dca64f1168f0d918a16a98db52b3cd492c82bd",
       "description": "This Car is a beast on the road."
+    },
+    {
+      "model": "LAND ROVER RANGE ROVER VOGUE",
+      "price": "18900000",
+      "engine": "Diesel",
+      "cc": "3000",
+      "mileage": "10",
+      "image": "https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?t=st=1697011701~exp=1697012301~hmac=44a67609b9133521be9065a6a7441e46273311b3a5d0db86ef3d94fd45f3f111",
+      "description": "Almost new range rover. Imported from the UK.\nSpecs :\nFog Lights\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nSide Steps\nReverse Camera\nElectric Seats\nHeated Seats\nAir Suspension\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nHeight Control\nLeather Interior\nMulti Function Steering Wheel\nRear Spoiler\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nKeyless Entry\nThumbstart Ignition\nTurbo Charged\nPanoramic Sunroof\nMemory Seats\nProximity Sensors\nBlind spot Assist\nLane Keeping Assist\nDVD/CD Player\nLumbar Adjustment Support",
+      "id": 3
     }
   ],
   "comments": [

@@ -87,10 +87,9 @@ function displayVehicleDetails(vehicle){
     </div>
     <div>
         <button class="button-green">BID</button>
-        <button class="button-green">Edit</button>
+        <button onclick="updateDetails('${vehicle.id}')" class="button-green">Edit</button>
         <button onclick="deleteVehicle('${vehicle.id}')" class="button-red">Delete</button>
     </div>
-    
     `
     const specs= document.createElement('section')
     specs.innerHTML=`
@@ -118,6 +117,58 @@ function deleteVehicle(id){
         }
     })
 };
+//Edit details
+function updateDetails(Id){
+    fetch(`http://localhost:3000/vehicles/${Id}`)
+    .then(response=> response.json())
+    .then((data)=>{
+        const editForm=document.getElementById('editForm')
+        editForm.innerHTML=`
+        <h5>Update Details:</h5>
+        <form id="edit-car">
+          <input id="editModel" value="${data.model}" type="text" placeholder="Model Name"><br>
+          <input id="editPrice" value="${data.price}" type="number" placeholder="Price in Ksh"><br>
+          <input id="editEngine" value="${data.engine}" type="text" placeholder="Engine(Petrol,Diesel,Hybrid)"><br>
+          <input id="editCC" value="${data.cc}"type="number" placeholder="CC"><br>
+          <input id="editMileage" value="${data.mileage}" type="number" placeholder="Mileage in KM"><br>
+          <input id="editImage" value="${data.image}" type="text" placeholder="Image Url"><br>
+          <textarea id="editDescription"  placeholder="Description" cols="100" rows="5">${data.description}</textarea><br>
+          <button onclick="update('${data.id}')" type="submit" class="button-green">SAVE</button>
+        </form>
+        `
+    })
+}
+
+function update(id){
+    const model=document.getElementById('editModel').value;
+    const price=document.getElementById('editPrice').value;
+    const engine=document.getElementById('editEngine').value;
+    const cc=document.getElementById('editCC').value;
+    const mileage=document.getElementById('editMileage').value;
+    const image=document.getElementById('editImage').value;
+    const description=document.getElementById('editDescription').value;
+
+    const updatedVehicle={
+        model: model,
+        price: price,
+        engine: engine,
+        cc: cc,
+        mileage: mileage,
+        image: image,
+        description: description,
+    };
+    fetch(`http://localhost:3000/vehicles/${id}`,{
+        method:'PATCH',
+        body: JSON.stringify(updatedVehicle),
+        headers:{
+            'Content-Type':'application/json',
+        },
+        
+    })
+    .then(response=> response.json())
+    .then((data)=>(alert('Vehicle Updated')));
+
+}
 
 
 

@@ -37,6 +37,17 @@ a{
     padding:15px;
     justify-content: center;
 }
+#edit-car{
+    width:80%;
+}
+#edit-car input{
+    width:80%;
+    margin-bottom:10px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding-left: 10px;
+}
 h5{
     text-align: left;
 }
@@ -94,6 +105,9 @@ textarea{
 #details-container div{
     width:20vw;
     margin-left: 20px;
+}
+#details-container section{
+    width:20vw;
 }
 .main-img{
     width:30vw;
