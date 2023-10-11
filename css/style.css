@@ -115,6 +115,9 @@ textarea{
 .card-bottom{
     padding:10px;
 }
+.card-bottom p{
+    font-weight: bold;
+}
 
 footer{
     color:black;
