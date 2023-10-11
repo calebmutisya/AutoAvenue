@@ -3,21 +3,21 @@
       {
         "id": 1,
         "model": "Mercedes",
-        "prices": 3000000,
+        "price": 3000000,
         "engine": "Diesel",
         "cc":2000,
         "mileage":300,
-        "image": "./assets/coder-dog.png",
+        "image": "https://img.freepik.com/free-photo/mini-coupe-high-speed-drive-road-with-front-lights_114579-5040.jpg?w=1380&t=st=1696942574~exp=1696943174~hmac=5a8c331fe3f7024def7eded7b3dca64f1168f0d918a16a98db52b3cd492c82bd",
         "description":"This Car is a beast on the road."
       },
       {
         "id": 2,
         "model": "Toyota",
-        "prices": 2500000,
+        "price": 2500000,
         "engine": "Diesel",
         "cc":500,
         "mileage":240,
-        "image": "./assets/coder-dog.png",
+        "image": "https://img.freepik.com/free-photo/mini-coupe-high-speed-drive-road-with-front-lights_114579-5040.jpg?w=1380&t=st=1696942574~exp=1696943174~hmac=5a8c331fe3f7024def7eded7b3dca64f1168f0d918a16a98db52b3cd492c82bd",
         "description":"This Car is a beast on the road."
       }
     ],
