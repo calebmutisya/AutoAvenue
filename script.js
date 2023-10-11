@@ -76,7 +76,7 @@ function displayVehicleDetails(vehicle){
     details.innerHTML=`
     <h5>${vehicle.model}</h5>
     <div class="main-details">
-        Price :
+        Price(Ksh) :
         <p>${vehicle.price}</p>
         Mileage in KM:
         <p>${vehicle.mileage}</p>

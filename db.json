@@ -2,13 +2,13 @@
   "vehicles": [
     {
       "id": 1,
-      "model": "Mercedes",
-      "price": 3000000,
-      "engine": "Diesel",
-      "cc": 2000,
-      "mileage": 300,
-      "image": "https://img.freepik.com/free-photo/silver-luxury-sport-car-port_114579-5200.jpg?w=1380&t=st=1697009440~exp=1697010040~hmac=f0fc1f98ace2ab1764fd17671926333ed7f47deb75cd21ac959d6e2a3aec56aa",
-      "description": "This Car is a beast on the road."
+      "model": "TOYOTA HARRIER",
+      "price": "3800000",
+      "engine": "Petrol",
+      "cc": "2000",
+      "mileage": "100",
+      "image": "https://global.toyota/pages/news/images/2020/06/17/1330/001.jpg",
+      "description": "SPECIFICATIONS : \nCruise Control\nFog Lights\nRear Wiper\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nReverse Camera\nElectric Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nClimate Control\nElectric Mirrors\nMulti Function Steering Wheel\nRear Spoiler\nSliding Panoramic roof\nPower Mirrors\nAM/FM Radio\nElectric Windows\nKeyless Entry\nRear Camera\nThumbstart Ignition\nTraction Control\nPush to start Ignition\nMemory Seats\nProximity Sensors\n360 View Camera\nLane Keeping Assist\nDVD/CD Player\nPower Tailgate"
     },
     {
       "id": 2,
