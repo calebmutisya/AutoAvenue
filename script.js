@@ -88,7 +88,7 @@ function displayVehicleDetails(vehicle){
     <div>
         <button class="button-green">BID</button>
         <button class="button-green">Edit</button>
-        <button class="button-red">Delete</button>
+        <button onclick="deleteVehicle('${vehicle.id}')" class="button-red">Delete</button>
     </div>
     
     `
@@ -105,5 +105,19 @@ function displayVehicleDetails(vehicle){
     detailsSection.appendChild(specs);
 
 }
+//Delete function
+function deleteVehicle(id){
+    fetch(`http://localhost:3000/vehicles/${id}`,{
+    method:'DELETE',
+    })
+    .then(response => {
+        if (response.ok) {
+            alert('Vehicle Deleted');
+        } else {
+            alert('Failed to delete the vehicle.');
+        }
+    })
+};
+
 
 

@@ -19,16 +19,6 @@
       "mileage": 240,
       "image": "https://img.freepik.com/free-photo/mini-coupe-high-speed-drive-road-with-front-lights_114579-5040.jpg?w=1380&t=st=1696942574~exp=1696943174~hmac=5a8c331fe3f7024def7eded7b3dca64f1168f0d918a16a98db52b3cd492c82bd",
       "description": "This Car is a beast on the road."
-    },
-    {
-      "model": "LAND ROVER RANGE ROVER VOGUE",
-      "price": "20",
-      "engine": "Diesel",
-      "cc": "17",
-      "mileage": "17",
-      "image": "https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?t=st=1697011701~exp=1697012301~hmac=44a67609b9133521be9065a6a7441e46273311b3a5d0db86ef3d94fd45f3f111",
-      "description": "gffffffffffh",
-      "id": 3
     }
   ],
   "comments": [
