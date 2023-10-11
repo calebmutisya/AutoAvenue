@@ -12,13 +12,13 @@
     },
     {
       "id": 2,
-      "model": "Toyota Calmusa",
-      "price": "2500000",
-      "engine": "Diesel",
-      "cc": "500",
-      "mileage": "240",
-      "image": "https://img.freepik.com/free-photo/mini-coupe-high-speed-drive-road-with-front-lights_114579-5040.jpg?w=1380&t=st=1696942574~exp=1696943174~hmac=5a8c331fe3f7024def7eded7b3dca64f1168f0d918a16a98db52b3cd492c82bd",
-      "description": "This Car is a beast on the road."
+      "model": "MAZDA AXELA",
+      "price": "19800000",
+      "engine": "Petrol",
+      "cc": "1500",
+      "mileage": "140",
+      "image": "https://newsroom.mazda.com/en/publicity/release/2009/200906/090611a.jpg",
+      "description": "SPECIFICATIONS :  \nCruise Control\nFog Lights\nRear Wiper\nCentral Locking\nPower Steering\nPower Windows\nReverse Camera\nBluetooth Car Kit\nAirbags\nAlloy Wheels\nMulti Function Steering Wheel\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nCup Holders\nElectric Windows\nKeyless Entry\nRear Camera\nThumbstart Ignition\nTraction Control\nPush to start Ignition\nLane Keeping Assist\nDVD/CD Player\nFabric Seats"
     },
     {
       "model": "LAND ROVER RANGE ROVER VOGUE",
@@ -29,6 +29,26 @@
       "image": "https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?t=st=1697011701~exp=1697012301~hmac=44a67609b9133521be9065a6a7441e46273311b3a5d0db86ef3d94fd45f3f111",
       "description": "Almost new range rover. Imported from the UK.\nSpecs :\nFog Lights\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nSide Steps\nReverse Camera\nElectric Seats\nHeated Seats\nAir Suspension\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nHeight Control\nLeather Interior\nMulti Function Steering Wheel\nRear Spoiler\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nKeyless Entry\nThumbstart Ignition\nTurbo Charged\nPanoramic Sunroof\nMemory Seats\nProximity Sensors\nBlind spot Assist\nLane Keeping Assist\nDVD/CD Player\nLumbar Adjustment Support",
       "id": 3
+    },
+    {
+      "model": "TOYOTA LANDCRUISER 300 SERIES GR SPORT",
+      "price": "23000000",
+      "engine": "Diesel",
+      "cc": "3300",
+      "mileage": "10",
+      "image": "https://cdn.rotorint.com/LandCruiser_300/2021_07_Jul/e/hero/png/lo/907x510/SPN_LC3_010218LA215E15740G0_compcrop_001.png",
+      "description": "SPECIFICATIONS : \nCruise Control\nRear Wiper\nLeather Seats\nSun Roof\nPower Steering\nPower Windows\nElectric Seats\nHeated Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nClimate Control\nElectric Mirrors\nLeather Interior\nMulti Function Steering Wheel\nRear Spoiler\nTouch Screen Audio\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nElectric Windows\nKeyless Entry\nRear Camera\nXenon Lights\nTraction Control\nRoof Rack\nPush to start Ignition\nProximity Sensors\n360 View Camera\nBlind spot Assist\nLane Keeping Assist\nCooled and Heated Front Seats\nDaytime Running Lights (DRLs)\nElectronic Hand Brake\nOptional Driving Modes",
+      "id": 4
+    },
+    {
+      "model": "AUDI Q5",
+      "price": "1650000",
+      "engine": "Diesel",
+      "cc": "2000",
+      "mileage": "55",
+      "image": "https://www.motortrend.com/uploads/sites/10/2018/12/2019-audi-q5-prestige-suv-angular-front.png?fit=around%7C875:492.1875",
+      "description": "SPECIFICATIONS : \nFog Lights\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nTail Lift\nElectric Seats\nBluetooth Car Kit\nAirbags\nAlloy Wheels\nElectric Mirrors\nPower Mirrors\nAM/FM Radio\nCup Holders\nElectric Windows\nDVD/CD Player\nElectronic Hand Brake",
+      "id": 5
     }
   ],
   "comments": [

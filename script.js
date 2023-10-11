@@ -125,16 +125,20 @@ function updateDetails(Id){
         const editForm=document.getElementById('editForm')
         editForm.innerHTML=`
         <h5>Update Details:</h5>
-        <form id="edit-car">
-          <input id="editModel" value="${data.model}" type="text" placeholder="Model Name"><br>
-          <input id="editPrice" value="${data.price}" type="number" placeholder="Price in Ksh"><br>
-          <input id="editEngine" value="${data.engine}" type="text" placeholder="Engine(Petrol,Diesel,Hybrid)"><br>
-          <input id="editCC" value="${data.cc}"type="number" placeholder="CC"><br>
-          <input id="editMileage" value="${data.mileage}" type="number" placeholder="Mileage in KM"><br>
-          <input id="editImage" value="${data.image}" type="text" placeholder="Image Url"><br>
-          <textarea id="editDescription"  placeholder="Description" cols="100" rows="5">${data.description}</textarea><br>
-          <button onclick="update('${data.id}')" type="submit" class="button-green">SAVE</button>
-        </form>
+        <div id="edit-car">
+            <div>
+                <input id="editModel" value="${data.model}" type="text" placeholder="Model Name"><br>
+                <input id="editPrice" value="${data.price}" type="number" placeholder="Price in Ksh"><br>
+                <input id="editEngine" value="${data.engine}" type="text" placeholder="Engine(Petrol,Diesel,Hybrid)"><br>
+                <input id="editCC" value="${data.cc}"type="number" placeholder="CC"><br>
+                <input id="editMileage" value="${data.mileage}" type="number" placeholder="Mileage in KM"><br>
+                <input id="editImage" value="${data.image}" type="text" placeholder="Image Url"><br>
+            </div>
+            <div class="editB">
+                <textarea id="editDescription"  placeholder="Description" cols="50" rows="5">${data.description}</textarea><br>
+                <button onclick="update('${data.id}')" type="submit" class="button-green">SAVE</button>
+            </div>
+        </div>
         `
     })
 }
