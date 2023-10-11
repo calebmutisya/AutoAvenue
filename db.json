@@ -1,0 +1,41 @@
+{
+    "vehicles": [
+      {
+        "id": 1,
+        "model": "Mercedes",
+        "prices": 3000000,
+        "engine": "Diesel",
+        "cc":2000,
+        "mileage":300,
+        "image": "./assets/coder-dog.png",
+        "description":"This Car is a beast on the road."
+      },
+      {
+        "id": 2,
+        "model": "Toyota",
+        "prices": 2500000,
+        "engine": "Diesel",
+        "cc":500,
+        "mileage":240,
+        "image": "./assets/coder-dog.png",
+        "description":"This Car is a beast on the road."
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "imageId": 1,
+        "content": "What a cute dog!"
+      },
+      {
+        "id": 2,
+        "imageId": 1,
+        "content": "He's got a nose for bugs!"
+      },
+      {
+        "id": 3,
+        "imageId": 1,
+        "content": "Woof!"
+      }
+    ]
+}

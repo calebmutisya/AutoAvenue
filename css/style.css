@@ -1,0 +1,136 @@
+
+nav h2{
+    font-family: 'Balisong', sans-serif;
+    line-height: 30px;
+    padding:10px;
+    margin-left: 10vw;
+}
+.right-section{
+    display: flex;
+    width:20vw;
+    justify-content: space-between;
+    margin-left: auto;
+}
+.right-section div a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight:800;
+    font-size: large;
+    margin-right: 15px;
+}
+a{
+    text-decoration: none;
+}
+.logo{
+    height:30px;
+    margin:10px;
+    border-radius: 15px;
+}
+.details-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.sellCar{
+    width:20vw;
+    padding:15px;
+    justify-content: center;
+}
+h5{
+    text-align: left;
+}
+.sellCar form input{
+    width:80%;
+    margin-bottom:10px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+textarea{
+    padding:15px;
+    border-radius: 15px;
+    width:80%;
+}
+.button{
+    background-color: black;
+    color: white;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    margin-top: 10px;
+}
+.button-green,.button-red{
+    background-color: black;
+    color: white;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 20px;
+
+}
+.button-green:hover {
+    background-color: lime;
+    transition: 0.15s;
+}
+.button-red:hover {
+    background-color: red;
+    transition: 0.15s;
+}
+
+.car-specs{
+    display: flex;
+    flex-direction: row;
+    
+}
+.details-section{
+    width:30vw;
+    margin-left: 20px;
+}
+.main-img{
+    width:30vw;
+}
+.main-details{
+    display: grid;
+    grid-template-columns: auto  auto;
+    grid-column-gap: 20px;
+    grid-row-gap:20px;
+    grid-template-rows: auto auto;
+}
+.car-list{
+    display: grid;
+    grid-template-columns: auto  auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+    grid-template-rows: auto auto auto auto;
+}
+.display-card{
+    width:300px;
+    border: 5px solid rgb(174, 172, 172);
+    border-radius: 5px;
+}
+.card-bottom{
+    padding:10px;
+}
+
+footer{
+    color:black;
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    border-top: 5px solid black;
+}
+footer img{
+    width:200px;
+}
