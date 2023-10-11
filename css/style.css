@@ -80,25 +80,33 @@ textarea{
     background-color: red;
     transition: 0.15s;
 }
-
 .car-specs{
     display: flex;
     flex-direction: row;
-    
 }
-.details-section{
+.details-container{
+    display: flex;
+    flex-direction: row;
+}
+#details-container img{
     width:30vw;
+}
+#details-container div{
+    width:20vw;
     margin-left: 20px;
 }
 .main-img{
     width:30vw;
 }
+#h5{
+    text-align: center;
+}
 .main-details{
-    display: grid;
-    grid-template-columns: auto  auto;
-    grid-column-gap: 20px;
-    grid-row-gap:20px;
-    grid-template-rows: auto auto;
+    display: flex;
+    flex-direction: column;
+}
+.main-details p{
+    font-weight: bold;
 }
 .car-list{
     display: grid;

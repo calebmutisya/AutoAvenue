@@ -15,13 +15,7 @@ function displayVehicles(vehicles){
             <div class="card-bottom">
               <h5 id="cardTitle" class="card-title">${vehicle.model}</h5>
               </br>
-              Price in Ksh:
-              <p id="cardPrice" class="card-text">${vehicle.price}</p>
-              Mileage(KM):
-              <p id="cardMileage" class="card-text">${vehicle.mileage}</p>
-              Engine Type:
-              <p id="cardEngine" class="card-text">${vehicle.engine}</p>
-              <button onclick="displayDetails(${vehicle.id})" class="button-green">See More</button>
+              <button onclick="fetchDetails('${vehicle.id}')" class="button-green">See More</button>
             </div>
           </div>
         `
@@ -66,7 +60,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 })
 
 //FetchDisplayDetails
-function displayDetails(vehiclesId){
+function fetchDetails(vehiclesId){
     return fetch(`http://localhost:3000/vehicles/${vehiclesId}`)
         .then(response=> response.json())
         .then(data => {displayVehicleDetails(data);
@@ -74,28 +68,42 @@ function displayDetails(vehiclesId){
 }
 //DisplayVehicleDetails
 function displayVehicleDetails(vehicle){
-    const detailsSection= document.getElementByClass('car-specs');
-    detailsSection.innerHTML=`
-    <img class="main-img" src="${vehicle.image}" alt="Loading ..">
-          <div class="details-section">
-            <h5>${vehicle.model}</h5>
-            <div class="main-details ">
-              <p>${vehicle.price}</p>
-              <p>${vehicle.mileage}</p>
-              <p>${vehicle.engine}</p>
-              <p>${vehicle.cc}</p>
-            </div  >
-            <div>
-              <button class="button-green">BID</button>
-              <button class="button-green">Edit</button>
-              <button class="button-red">Delete</button>
-            </div>
-            <h6>Description :</h6>
-            <p class="main-description">${vehicle.description}</p>
-
-          </div>
+    const detailsSection= document.getElementById('details-container');
+    const image = document.createElement('img');
+    image.src = vehicle.image;
+    image.alt = 'Loading ..';
+    const details= document.createElement('div');
+    details.innerHTML=`
+    <h5>${vehicle.model}</h5>
+    <div class="main-details">
+        Price :
+        <p>${vehicle.price}</p>
+        Mileage in KM:
+        <p>${vehicle.mileage}</p>
+        Engine Type:
+        <p>${vehicle.engine}</p>
+        CC :
+        <p>${vehicle.cc}</p>
+    </div>
+    <div>
+        <button class="button-green">BID</button>
+        <button class="button-green">Edit</button>
+        <button class="button-red">Delete</button>
+    </div>
+    
+    `
+    const specs= document.createElement('section')
+    specs.innerHTML=`
+    <h6>Description :</h6>
+    <p class="main-description">${vehicle.description}</p>
     `
 
+    detailsSection.innerHTML = '';
+
+    detailsSection.appendChild(image);
+    detailsSection.appendChild(details);
+    detailsSection.appendChild(specs);
 
 }
+
 
