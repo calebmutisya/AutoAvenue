@@ -26,7 +26,7 @@
       "engine": "Diesel",
       "cc": "3000",
       "mileage": "10",
-      "image": "https://img.freepik.com/free-photo/blue-jeep-parking-public-zone_114579-4042.jpg?t=st=1697011701~exp=1697012301~hmac=44a67609b9133521be9065a6a7441e46273311b3a5d0db86ef3d94fd45f3f111",
+      "image": "https://www.mad4wheels.com/img/free-car-images/mobile/15365/land-rover-range-rover-vogue-sdv8-by-caractere-2016-443129.jpg",
       "description": "Almost new range rover. Imported from the UK.\nSpecs :\nFog Lights\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nSide Steps\nReverse Camera\nElectric Seats\nHeated Seats\nAir Suspension\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nHeight Control\nLeather Interior\nMulti Function Steering Wheel\nRear Spoiler\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nKeyless Entry\nThumbstart Ignition\nTurbo Charged\nPanoramic Sunroof\nMemory Seats\nProximity Sensors\nBlind spot Assist\nLane Keeping Assist\nDVD/CD Player\nLumbar Adjustment Support",
       "id": 3
     },
@@ -49,6 +49,16 @@
       "image": "https://www.motortrend.com/uploads/sites/10/2018/12/2019-audi-q5-prestige-suv-angular-front.png?fit=around%7C875:492.1875",
       "description": "SPECIFICATIONS : \nFog Lights\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nTail Lift\nElectric Seats\nBluetooth Car Kit\nAirbags\nAlloy Wheels\nElectric Mirrors\nPower Mirrors\nAM/FM Radio\nCup Holders\nElectric Windows\nDVD/CD Player\nElectronic Hand Brake",
       "id": 5
+    },
+    {
+      "model": "MERCEDES-BENZ C200",
+      "price": "3350000",
+      "engine": "Petrol",
+      "cc": "2000",
+      "mileage": "24",
+      "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200421011813_c-class.jpg&w=700&q=90&c=1",
+      "description": "SPECIFICATIONS : \nPower Lock\nRear Wiper\nCentral Locking\nPower Steering\nPower Windows\nElectric Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nElectric Mirrors\nLeather Interior\nMulti Function Steering Wheel\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nElectric Windows\nKeyless Entry\nThumbstart Ignition\nTraction Control\nMemory Seats\nTiptronic Paddle Shifts\nDVD/CD Player\nDaytime Running Lights (DRLs)",
+      "id": 6
     }
   ],
   "comments": [

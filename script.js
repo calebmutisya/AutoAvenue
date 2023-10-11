@@ -173,6 +173,7 @@ function update(id){
     .then((data)=>(alert('Vehicle Updated')));
 
 }
+//Bid for car
 
 
 
