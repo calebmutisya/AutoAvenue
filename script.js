@@ -44,6 +44,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             mileage: Mileage,
             image: Image,
             description: Description,
+            potential_buyers: [],
         };
 
         fetch(`http://localhost:3000/vehicles`,{

@@ -116,6 +116,23 @@
           "price": 3200000
         }
       ]
+    },
+    {
+      "model": "LEXUS NX200T",
+      "price": "4750000",
+      "engine": "Petrol",
+      "cc": "2000",
+      "mileage": "10",
+      "image": "https://www.lexus.com/content/dam/lexus/images/models/nx/2024/visualizer/350/exterior/18-inch-15-spoke-alloy-wheels-dark-gray-machined-finish/eminent-white-pearl/large-1.jpg",
+      "description": "SPECIFICATIONS : \nCruise Control\nFog Lights\nRear Wiper\nLeather Seats\nCD Player\nSun Roof\nCentral Locking\nPower Steering\nPower Windows\nTail Lift\nReverse Camera\nElectric Seats\nHeated Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nClimate Control\nElectric Mirrors\nLeather Interior\nMulti Function Steering Wheel\nXenon Headlights\nPower Mirrors\nBlind spot\nAM/FM Radio\nArmrests\nCup Holders\nElectric Windows\nKeyless Entry\nRear Camera\nThumbstart Ignition\nXenon Lights\nTraction Control\nPush to start Ignition\nMemory Seats\nProximity Sensors\n360 View Camera\nCooled and Heated Front Seats\nTiptronic Paddle Shifts\nLumbar Adjustment Support\nDaytime Running Lights (DRLs)\nElectronic Hand Brake\nPower Tailgate\nOptional Driving Modes",
+      "potential_buyers": [
+        {
+          "name": "Caleb Musau",
+          "contact_information": "0741050611",
+          "price": 4700000
+        }
+      ],
+      "id": 7
     }
   ]
 }
