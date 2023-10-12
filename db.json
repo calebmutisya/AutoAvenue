@@ -11,16 +11,6 @@
       "description": "SPECIFICATIONS : \nCruise Control\nFog Lights\nRear Wiper\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nReverse Camera\nElectric Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nClimate Control\nElectric Mirrors\nMulti Function Steering Wheel\nRear Spoiler\nSliding Panoramic roof\nPower Mirrors\nAM/FM Radio\nElectric Windows\nKeyless Entry\nRear Camera\nThumbstart Ignition\nTraction Control\nPush to start Ignition\nMemory Seats\nProximity Sensors\n360 View Camera\nLane Keeping Assist\nDVD/CD Player\nPower Tailgate",
       "potential_buyers": [
         {
-          "name": "John Doe",
-          "contact_information": "john.doe@example.com",
-          "price": 500
-        },
-        {
-          "name": "Jane Smith",
-          "contact_information": "jane.smith@example.com",
-          "price": 500
-        },
-        {
           "name": "Caleb Musau",
           "contact_information": "0741050611",
           "price": 3500000
@@ -79,7 +69,13 @@
       "mileage": "10",
       "image": "https://cdn.rotorint.com/LandCruiser_300/2021_07_Jul/e/hero/png/lo/907x510/SPN_LC3_010218LA215E15740G0_compcrop_001.png",
       "description": "SPECIFICATIONS : \nCruise Control\nRear Wiper\nLeather Seats\nSun Roof\nPower Steering\nPower Windows\nElectric Seats\nHeated Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nClimate Control\nElectric Mirrors\nLeather Interior\nMulti Function Steering Wheel\nRear Spoiler\nTouch Screen Audio\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nElectric Windows\nKeyless Entry\nRear Camera\nXenon Lights\nTraction Control\nRoof Rack\nPush to start Ignition\nProximity Sensors\n360 View Camera\nBlind spot Assist\nLane Keeping Assist\nCooled and Heated Front Seats\nDaytime Running Lights (DRLs)\nElectronic Hand Brake\nOptional Driving Modes",
-      "potential_buyers": []
+      "potential_buyers": [
+        {
+          "name": "Caleb Musau",
+          "contact_information": "0741050611",
+          "price": 22500000
+        }
+      ]
     },
     {
       "id": 5,

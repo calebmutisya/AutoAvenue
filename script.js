@@ -89,6 +89,9 @@ function displayVehicleDetails(vehicle){
         <button onclick="updateBuyers('${vehicle.id}')" class="button-green">GET THIS RIDE</button>
         <button onclick="updateDetails('${vehicle.id}')" class="button-green">Edit</button>
         <button onclick="deleteVehicle('${vehicle.id}')" class="button-red">Delete</button>
+        <div>
+            <button onclick="fetchAndDisplayBuyers('${vehicle.id}')" class="button-green">POTENTIAL BUYERS</button>
+        </div>
     </div>
     `
     const specs= document.createElement('section')
@@ -256,5 +259,42 @@ function updateBuyerDetails(carId){
                 });
         });
 };
+//Display potential buyers
+// Function to fetch and display potential buyers for a specific vehicle
+function fetchAndDisplayBuyers(vehicleId) {
+    fetch(`http://localhost:3000/vehicles/${vehicleId}`)
+      .then((response) => response.json())
+      .then((data) => {
 
+        const bidList = document.getElementById("bidList");
+        bidList.innerHTML = `
+        <p>${data.model} Potential Buyers<button onclick="clearBidList();" class="button-red">Close</button>
+        </p>
+        `
+  
+        // Create an unordered list to display buyers
+        const ul = document.createElement("ul");
+  
+        // Loop through potential buyers and create list items
+        data.potential_buyers.forEach((buyer) => {
+        const li = document.createElement("li");
+        li.textContent = `Name: ${buyer.name}, Contact: ${buyer.contact_information}, Price: Ksh ${buyer.price.toLocaleString()}`;
+        ul.appendChild(li);
+        });
+  
+        // Append the list to the bidList element
+        bidList.appendChild(ul);
+        
+      })
+      .catch((error) => {
+        console.error("Error fetching data:", error);
+      });
+}
+//Close button for Bid List
+function clearBidList() {
+    const bidList = document.getElementById("bidList");
+    bidList.innerHTML = "";
+}
+
+  
 

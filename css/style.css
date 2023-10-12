@@ -176,3 +176,6 @@ footer{
 footer img{
     width:200px;
 }
+#bidList p{
+    font-weight: bold;
+}
