@@ -21,7 +21,7 @@
     - And your application is running.
        
 ## Live link
-Deployed Frontend can be accessed here [Blog](url here)   
+Deployed Frontend can be accessed here [Blog](https://calebmutisya.github.io/AutoAvenue/)   
 
 
 ## Known Bugs
