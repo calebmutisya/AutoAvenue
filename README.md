@@ -2,10 +2,11 @@
 #### **By Caleb Mutisya**
 ## Project Description
     AutoAvenue is a vehicle listing website where sellers 
-    can meet potentialbuyers who are  interested in acquiring a vehicle.
+    can meet potential buyers who are  interested in acquiring a vehicle.
 ## Features
     -A seller can list their car using the 'Sell a Car' form.
     -The vehicle image and details are displayed in a well organized set up.
+    -A buyer can see card images and click on 'See More' to see vehicle details.
     -A seller can edit the details of the listing they posted.
     -A seller can delete their vehicle listing.
     -A buyer interested in acquiring a vehicle will click on 'Get this Ride' button to fill a purchase request form.
@@ -14,7 +15,7 @@
 ## Setup/Installation Requirements
     - Download zip in the code section of github to your desired folder
     - Extract the files
-    - Open the folder with vs code.
+    - Open the  cloned folder with vs code.
     - Then run "json-server --watch db.json" to run our server.
     - The run your index.html by either using the "GO LIVE" extension or by double clicking of the index.html
     - And your application is running.
