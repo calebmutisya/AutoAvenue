@@ -34,6 +34,11 @@
           "name": "Andrew",
           "contact_information": "0798 765 432",
           "price": 3200000
+        },
+        {
+          "name": "Johny Trejo",
+          "contact_information": "0753788927",
+          "price": 4000000
         }
       ]
     },
@@ -46,7 +51,13 @@
       "mileage": "140",
       "image": "https://newsroom.mazda.com/en/publicity/release/2009/200906/090611a.jpg",
       "description": "SPECIFICATIONS :  \nCruise Control\nFog Lights\nRear Wiper\nCentral Locking\nPower Steering\nPower Windows\nReverse Camera\nBluetooth Car Kit\nAirbags\nAlloy Wheels\nMulti Function Steering Wheel\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nCup Holders\nElectric Windows\nKeyless Entry\nRear Camera\nThumbstart Ignition\nTraction Control\nPush to start Ignition\nLane Keeping Assist\nDVD/CD Player\nFabric Seats",
-      "potential_buyers": []
+      "potential_buyers": [
+        {
+          "name": "Caleb Musau",
+          "contact_information": "0741050611",
+          "price": 1500000
+        }
+      ]
     },
     {
       "id": 3,

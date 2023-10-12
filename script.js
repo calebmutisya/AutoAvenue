@@ -137,9 +137,15 @@ function updateDetails(Id){
             <div class="editB">
                 <textarea id="editDescription"  placeholder="Description" cols="50" rows="5">${data.description}</textarea><br>
                 <button onclick="update('${data.id}')" type="submit" class="button-green">SAVE</button>
+                <button class="closeEdit-button">Close</button>
+
             </div>
         </div>
         `
+        const closeButton = editForm.querySelector('.closeEdit-button');
+        closeButton.addEventListener('click', () => {
+            editForm.innerHTML=''; // Remove the form on close
+        });
     })
 }
 
@@ -174,24 +180,43 @@ function update(id){
 
 }
 //Bid for car function
-function updateBuyers(carId){
-    fetch(`http://localhost:3000/vehicles/${carId}`)
-    .then(response=> response.json())
-    .then((data)=>{
-        const purchaseSlot= document.getElementById('purchase-container')
-        const buyForm= document.createElement('form')
-        buyForm.innerHTML=`
-        <h5>Purchase Form</h5>
-        <input id="buyName" type="text" placeholder="Your Name"><br>
-        <input id="buyerContact" type="text" placeholder="Contact(email,phone):"><br>
-        <input id="buyerPrice" type="text" placeholder="Your Price"><br>
-        <button  onclick=updateBuyerDetails('${data.id}') type="button" class="button-green">BID</button>
-        <br>
-        `
-        purchaseSlot.appendChild(buyForm)
+function updateBuyers(carId) {
+    // Check if the form already exists
+    const existingForm = document.querySelector('#purchase-container form.buy-form');
 
-    })
-};
+    if (!existingForm) {
+        fetch(`http://localhost:3000/vehicles/${carId}`)
+            .then(response => response.json())
+            .then((data) => {
+                const purchaseSlot = document.getElementById('purchase-container');
+                const buyForm = document.createElement('form');
+                buyForm.classList.add('buy-form'); // Add a class to the form
+                buyForm.innerHTML = `
+                    <h5>Purchase Request Form</h5>
+                    <p>${data.model}</p>
+                    <input id="buyName" type="text" placeholder="Your Name"><br>
+                    <input id="buyerContact" type="text" placeholder="Contact (email, phone):"><br>
+                    <input id="buyerPrice" type="text" placeholder="Your Price"><br>
+                    <p>Seller will contact you.<br/>
+                        Close this form to make purchase<br/> request for another vehicle!!
+                    </p>
+                    
+                    <button onclick=updateBuyerDetails('${data.id}') type="button" class="button-green">SEND REQUEST</button>
+                    <button class="close-button">Close</button>
+                    <br>
+                `;
+                purchaseSlot.appendChild(buyForm);
+
+                //Close button
+                const closeButton = buyForm.querySelector('.close-button');
+                closeButton.addEventListener('click', () => {
+                    purchaseSlot.removeChild(buyForm); // Remove the form on close
+                });
+
+            });
+    }
+}
+
 
 function updateBuyerDetails(carId){
     // Get the form input values

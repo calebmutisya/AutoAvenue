@@ -79,7 +79,7 @@ textarea{
     border-style: none;
     margin-top: 10px;
 }
-.button-green,.button-red{
+.button-green,.button-red,.close-button,.closeEdit-button{
     background-color: black;
     color: white;
     height: 35px;
@@ -94,6 +94,14 @@ textarea{
     transition: 0.15s;
 }
 .button-red:hover {
+    background-color: red;
+    transition: 0.15s;
+}
+.close-button:hover{
+    background-color: red;
+    transition: 0.15s;
+}
+.closeEdit-button:hover{
     background-color: red;
     transition: 0.15s;
 }
