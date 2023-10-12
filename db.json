@@ -58,7 +58,13 @@
       "mileage": "10",
       "image": "https://www.mad4wheels.com/img/free-car-images/mobile/15365/land-rover-range-rover-vogue-sdv8-by-caractere-2016-443129.jpg",
       "description": "Almost new range rover. Imported from the UK.\nSpecs :\nFog Lights\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nSide Steps\nReverse Camera\nElectric Seats\nHeated Seats\nAir Suspension\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nHeight Control\nLeather Interior\nMulti Function Steering Wheel\nRear Spoiler\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nKeyless Entry\nThumbstart Ignition\nTurbo Charged\nPanoramic Sunroof\nMemory Seats\nProximity Sensors\nBlind spot Assist\nLane Keeping Assist\nDVD/CD Player\nLumbar Adjustment Support",
-      "potential_buyers": []
+      "potential_buyers": [
+        {
+          "name": "Caleb Musau",
+          "contact_information": "0741050611",
+          "price": 17900000
+        }
+      ]
     },
     {
       "id": 4,
@@ -86,7 +92,13 @@
       "mileage": "55",
       "image": "https://www.motortrend.com/uploads/sites/10/2018/12/2019-audi-q5-prestige-suv-angular-front.png?fit=around%7C875:492.1875",
       "description": "SPECIFICATIONS : \nFog Lights\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nTail Lift\nElectric Seats\nBluetooth Car Kit\nAirbags\nAlloy Wheels\nElectric Mirrors\nPower Mirrors\nAM/FM Radio\nCup Holders\nElectric Windows\nDVD/CD Player\nElectronic Hand Brake",
-      "potential_buyers": []
+      "potential_buyers": [
+        {
+          "name": "Caleb Musau",
+          "contact_information": "0741050611",
+          "price": 1500000
+        }
+      ]
     },
     {
       "id": 6,
@@ -97,7 +109,13 @@
       "mileage": "24",
       "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200421011813_c-class.jpg&w=700&q=90&c=1",
       "description": "SPECIFICATIONS : \nPower Lock\nRear Wiper\nCentral Locking\nPower Steering\nPower Windows\nElectric Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nElectric Mirrors\nLeather Interior\nMulti Function Steering Wheel\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nElectric Windows\nKeyless Entry\nThumbstart Ignition\nTraction Control\nMemory Seats\nTiptronic Paddle Shifts\nDVD/CD Player\nDaytime Running Lights (DRLs)",
-      "potential_buyers": []
+      "potential_buyers": [
+        {
+          "name": "Caleb Musau",
+          "contact_information": "0741050611",
+          "price": 3200000
+        }
+      ]
     }
   ]
 }
