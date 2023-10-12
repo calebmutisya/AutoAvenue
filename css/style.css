@@ -27,6 +27,14 @@ a{
     margin:10px;
     border-radius: 15px;
 }
+#social-icons{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+#social-icons a img{
+    width: 30px;
+    padding: 5px;
+}
 .details-container{
     display: flex;
     flex-direction: row;
@@ -156,6 +164,12 @@ textarea{
 }
 .card-bottom p{
     font-weight: bold;
+}
+#about-us{
+    text-align: center;
+}
+#about-us h5{
+    text-align: center;
 }
 
 footer{
