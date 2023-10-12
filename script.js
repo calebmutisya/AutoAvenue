@@ -128,7 +128,7 @@ function updateDetails(Id){
         <div id="edit-car">
             <div>
                 <input id="editModel" value="${data.model}" type="text" placeholder="Model Name"><br>
-                <input id="editPrice" value="${data.price}" type="number" placeholder="Price in Ksh"><br>
+                <input id="editPrice" value="${data.price}" type="text" placeholder="Price in Ksh"><br>
                 <input id="editEngine" value="${data.engine}" type="text" placeholder="Engine(Petrol,Diesel,Hybrid)"><br>
                 <input id="editCC" value="${data.cc}"type="number" placeholder="CC"><br>
                 <input id="editMileage" value="${data.mileage}" type="number" placeholder="Mileage in KM"><br>

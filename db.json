@@ -3,7 +3,7 @@
     {
       "id": 1,
       "model": "TOYOTA HARRIER",
-      "price": "3800000",
+      "price": "3,800,000",
       "engine": "Petrol",
       "cc": "2000",
       "mileage": "100",
@@ -45,7 +45,7 @@
     {
       "id": 2,
       "model": "MAZDA AXELA",
-      "price": "19800000",
+      "price": "1,980,000",
       "engine": "Petrol",
       "cc": "1500",
       "mileage": "140",
@@ -62,7 +62,7 @@
     {
       "id": 3,
       "model": "LAND ROVER RANGE ROVER VOGUE",
-      "price": "18900000",
+      "price": "18,900,000",
       "engine": "Diesel",
       "cc": "3000",
       "mileage": "10",
@@ -73,7 +73,7 @@
     {
       "id": 4,
       "model": "TOYOTA LANDCRUISER 300 SERIES GR SPORT",
-      "price": "23000000",
+      "price": "23,000,000",
       "engine": "Diesel",
       "cc": "3300",
       "mileage": "10",
@@ -84,7 +84,7 @@
     {
       "id": 5,
       "model": "AUDI Q5",
-      "price": "1650000",
+      "price": "1,650,000",
       "engine": "Diesel",
       "cc": "2000",
       "mileage": "55",
@@ -95,7 +95,7 @@
     {
       "id": 6,
       "model": "MERCEDES-BENZ C200",
-      "price": "3350000",
+      "price": "3,350,000",
       "engine": "Petrol",
       "cc": "2000",
       "mileage": "24",
