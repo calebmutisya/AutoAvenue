@@ -86,7 +86,7 @@ function displayVehicleDetails(vehicle){
         <p>${vehicle.cc}</p>
     </div>
     <div>
-        <button class="button-green">BID</button>
+        <button onclick="updateBuyers('${vehicle.id}')" class="button-green">GET THIS RIDE</button>
         <button onclick="updateDetails('${vehicle.id}')" class="button-green">Edit</button>
         <button onclick="deleteVehicle('${vehicle.id}')" class="button-red">Delete</button>
     </div>
@@ -173,7 +173,63 @@ function update(id){
     .then((data)=>(alert('Vehicle Updated')));
 
 }
-//Bid for car
+//Bid for car function
+function updateBuyers(carId){
+    fetch(`http://localhost:3000/vehicles/${carId}`)
+    .then(response=> response.json())
+    .then((data)=>{
+        const purchaseSlot= document.getElementById('purchase-container')
+        const buyForm= document.createElement('form')
+        buyForm.innerHTML=`
+        <h5>Purchase Form</h5>
+        <input id="buyName" type="text" placeholder="Your Name"><br>
+        <input id="buyerContact" type="text" placeholder="Contact(email,phone):"><br>
+        <input id="buyerPrice" type="text" placeholder="Your Price"><br>
+        <button  onclick=updateBuyerDetails('${data.id}') type="button" class="button-green">BID</button>
+        <br>
+        `
+        purchaseSlot.appendChild(buyForm)
 
+    })
+};
+
+function updateBuyerDetails(carId){
+    // Get the form input values
+    const name = document.getElementById('buyName').value;
+    const contact = document.getElementById('buyerContact').value;
+    const price = parseFloat(document.getElementById('buyerPrice').value);
+
+    // Create the new buyer object
+    const newBuyer = {
+        name: name,
+        contact_information: contact,
+        price: price,
+    };
+
+    // Fetch the vehicle data
+    fetch(`http://localhost:3000/vehicles/${carId}`)
+        .then((response) => response.json())
+        .then((data) => {
+            // Add the new buyer to the existing list of potential buyers
+            data.potential_buyers.push(newBuyer);
+
+            // Send a PATCH request to update the vehicle data
+            fetch(`http://localhost:3000/vehicles/${carId}`, {
+                method: 'PATCH',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(data),
+            })
+                .then((response) => response.json())
+                .then((newData) => {
+                    // Handle the response data or update your UI as needed
+                    alert('Bid posted successfully')
+                })
+                .catch((error) => {
+                    console.error('Error posting data:', error);
+                });
+        });
+};
 
 

@@ -8,7 +8,34 @@
       "cc": "2000",
       "mileage": "100",
       "image": "https://global.toyota/pages/news/images/2020/06/17/1330/001.jpg",
-      "description": "SPECIFICATIONS : \nCruise Control\nFog Lights\nRear Wiper\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nReverse Camera\nElectric Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nClimate Control\nElectric Mirrors\nMulti Function Steering Wheel\nRear Spoiler\nSliding Panoramic roof\nPower Mirrors\nAM/FM Radio\nElectric Windows\nKeyless Entry\nRear Camera\nThumbstart Ignition\nTraction Control\nPush to start Ignition\nMemory Seats\nProximity Sensors\n360 View Camera\nLane Keeping Assist\nDVD/CD Player\nPower Tailgate"
+      "description": "SPECIFICATIONS : \nCruise Control\nFog Lights\nRear Wiper\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nReverse Camera\nElectric Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nClimate Control\nElectric Mirrors\nMulti Function Steering Wheel\nRear Spoiler\nSliding Panoramic roof\nPower Mirrors\nAM/FM Radio\nElectric Windows\nKeyless Entry\nRear Camera\nThumbstart Ignition\nTraction Control\nPush to start Ignition\nMemory Seats\nProximity Sensors\n360 View Camera\nLane Keeping Assist\nDVD/CD Player\nPower Tailgate",
+      "potential_buyers": [
+        {
+          "name": "John Doe",
+          "contact_information": "john.doe@example.com",
+          "price": 500
+        },
+        {
+          "name": "Jane Smith",
+          "contact_information": "jane.smith@example.com",
+          "price": 500
+        },
+        {
+          "name": "Caleb Musau",
+          "contact_information": "0741050611",
+          "price": 3500000
+        },
+        {
+          "name": "Emma Claudia",
+          "contact_information": "0756962369",
+          "price": 3450000
+        },
+        {
+          "name": "Andrew",
+          "contact_information": "0798 765 432",
+          "price": 3200000
+        }
+      ]
     },
     {
       "id": 2,
@@ -18,9 +45,11 @@
       "cc": "1500",
       "mileage": "140",
       "image": "https://newsroom.mazda.com/en/publicity/release/2009/200906/090611a.jpg",
-      "description": "SPECIFICATIONS :  \nCruise Control\nFog Lights\nRear Wiper\nCentral Locking\nPower Steering\nPower Windows\nReverse Camera\nBluetooth Car Kit\nAirbags\nAlloy Wheels\nMulti Function Steering Wheel\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nCup Holders\nElectric Windows\nKeyless Entry\nRear Camera\nThumbstart Ignition\nTraction Control\nPush to start Ignition\nLane Keeping Assist\nDVD/CD Player\nFabric Seats"
+      "description": "SPECIFICATIONS :  \nCruise Control\nFog Lights\nRear Wiper\nCentral Locking\nPower Steering\nPower Windows\nReverse Camera\nBluetooth Car Kit\nAirbags\nAlloy Wheels\nMulti Function Steering Wheel\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nCup Holders\nElectric Windows\nKeyless Entry\nRear Camera\nThumbstart Ignition\nTraction Control\nPush to start Ignition\nLane Keeping Assist\nDVD/CD Player\nFabric Seats",
+      "potential_buyers": []
     },
     {
+      "id": 3,
       "model": "LAND ROVER RANGE ROVER VOGUE",
       "price": "18900000",
       "engine": "Diesel",
@@ -28,9 +57,10 @@
       "mileage": "10",
       "image": "https://www.mad4wheels.com/img/free-car-images/mobile/15365/land-rover-range-rover-vogue-sdv8-by-caractere-2016-443129.jpg",
       "description": "Almost new range rover. Imported from the UK.\nSpecs :\nFog Lights\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nSide Steps\nReverse Camera\nElectric Seats\nHeated Seats\nAir Suspension\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nHeight Control\nLeather Interior\nMulti Function Steering Wheel\nRear Spoiler\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nKeyless Entry\nThumbstart Ignition\nTurbo Charged\nPanoramic Sunroof\nMemory Seats\nProximity Sensors\nBlind spot Assist\nLane Keeping Assist\nDVD/CD Player\nLumbar Adjustment Support",
-      "id": 3
+      "potential_buyers": []
     },
     {
+      "id": 4,
       "model": "TOYOTA LANDCRUISER 300 SERIES GR SPORT",
       "price": "23000000",
       "engine": "Diesel",
@@ -38,9 +68,10 @@
       "mileage": "10",
       "image": "https://cdn.rotorint.com/LandCruiser_300/2021_07_Jul/e/hero/png/lo/907x510/SPN_LC3_010218LA215E15740G0_compcrop_001.png",
       "description": "SPECIFICATIONS : \nCruise Control\nRear Wiper\nLeather Seats\nSun Roof\nPower Steering\nPower Windows\nElectric Seats\nHeated Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nClimate Control\nElectric Mirrors\nLeather Interior\nMulti Function Steering Wheel\nRear Spoiler\nTouch Screen Audio\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nElectric Windows\nKeyless Entry\nRear Camera\nXenon Lights\nTraction Control\nRoof Rack\nPush to start Ignition\nProximity Sensors\n360 View Camera\nBlind spot Assist\nLane Keeping Assist\nCooled and Heated Front Seats\nDaytime Running Lights (DRLs)\nElectronic Hand Brake\nOptional Driving Modes",
-      "id": 4
+      "potential_buyers": []
     },
     {
+      "id": 5,
       "model": "AUDI Q5",
       "price": "1650000",
       "engine": "Diesel",
@@ -48,9 +79,10 @@
       "mileage": "55",
       "image": "https://www.motortrend.com/uploads/sites/10/2018/12/2019-audi-q5-prestige-suv-angular-front.png?fit=around%7C875:492.1875",
       "description": "SPECIFICATIONS : \nFog Lights\nLeather Seats\nCentral Locking\nPower Steering\nPower Windows\nTail Lift\nElectric Seats\nBluetooth Car Kit\nAirbags\nAlloy Wheels\nElectric Mirrors\nPower Mirrors\nAM/FM Radio\nCup Holders\nElectric Windows\nDVD/CD Player\nElectronic Hand Brake",
-      "id": 5
+      "potential_buyers": []
     },
     {
+      "id": 6,
       "model": "MERCEDES-BENZ C200",
       "price": "3350000",
       "engine": "Petrol",
@@ -58,24 +90,7 @@
       "mileage": "24",
       "image": "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20200421011813_c-class.jpg&w=700&q=90&c=1",
       "description": "SPECIFICATIONS : \nPower Lock\nRear Wiper\nCentral Locking\nPower Steering\nPower Windows\nElectric Seats\nBluetooth Car Kit\nReverse Parking Sensors\nAirbags\nAlloy Wheels\nElectric Mirrors\nLeather Interior\nMulti Function Steering Wheel\nXenon Headlights\nPower Mirrors\nAM/FM Radio\nArmrests\nCup Holders\nElectric Windows\nKeyless Entry\nThumbstart Ignition\nTraction Control\nMemory Seats\nTiptronic Paddle Shifts\nDVD/CD Player\nDaytime Running Lights (DRLs)",
-      "id": 6
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "imageId": 1,
-      "content": "What a cute dog!"
-    },
-    {
-      "id": 2,
-      "imageId": 1,
-      "content": "He's got a nose for bugs!"
-    },
-    {
-      "id": 3,
-      "imageId": 1,
-      "content": "Woof!"
+      "potential_buyers": []
     }
   ]
 }
