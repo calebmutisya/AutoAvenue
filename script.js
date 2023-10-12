@@ -1,6 +1,6 @@
 //Fetch vehicles from database
 document.addEventListener('DOMContentLoaded',()=>{
-    fetch('http://localhost:3000/vehicles')
+    fetch('https://autoavenue.onrender.com/vehicles')
     .then(response=> response.json())
     .then(data=> {displayVehicles(data);})
 });
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded',()=>{
             potential_buyers: [],
         };
 
-        fetch(`http://localhost:3000/vehicles`,{
+        fetch(`https://autoavenue.onrender.com/vehicles`,{
             method:'POST',
             body: JSON.stringify(newCar),
             headers:{
@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
 //FetchDisplayDetails
 function fetchDetails(vehiclesId){
-    return fetch(`http://localhost:3000/vehicles/${vehiclesId}`)
+    return fetch(`https://autoavenue.onrender.com/vehicles/${vehiclesId}`)
         .then(response=> response.json())
         .then(data => {displayVehicleDetails(data);
         })
@@ -110,7 +110,7 @@ function displayVehicleDetails(vehicle){
 }
 //Delete function
 function deleteVehicle(id){
-    fetch(`http://localhost:3000/vehicles/${id}`,{
+    fetch(`https://autoavenue.onrender.com/vehicles/${id}`,{
     method:'DELETE',
     })
     .then(response => {
@@ -123,7 +123,7 @@ function deleteVehicle(id){
 };
 //Edit details
 function updateDetails(Id){
-    fetch(`http://localhost:3000/vehicles/${Id}`)
+    fetch(`https://autoavenue.onrender.com/vehicles/${Id}`)
     .then(response=> response.json())
     .then((data)=>{
         const editForm=document.getElementById('editForm')
@@ -171,7 +171,7 @@ function update(id){
         image: image,
         description: description,
     };
-    fetch(`http://localhost:3000/vehicles/${id}`,{
+    fetch(`https://autoavenue.onrender.com/vehicles/${id}`,{
         method:'PATCH',
         body: JSON.stringify(updatedVehicle),
         headers:{
@@ -189,7 +189,7 @@ function updateBuyers(carId) {
     const existingForm = document.querySelector('#purchase-container form.buy-form');
 
     if (!existingForm) {
-        fetch(`http://localhost:3000/vehicles/${carId}`)
+        fetch(`https://autoavenue.onrender.com/vehicles/${carId}`)
             .then(response => response.json())
             .then((data) => {
                 const purchaseSlot = document.getElementById('purchase-container');
@@ -236,14 +236,14 @@ function updateBuyerDetails(carId){
     };
 
     // Fetch the vehicle data
-    fetch(`http://localhost:3000/vehicles/${carId}`)
+    fetch(`https://autoavenue.onrender.com/vehicles/${carId}`)
         .then((response) => response.json())
         .then((data) => {
             // Add the new buyer to the existing list of potential buyers
             data.potential_buyers.push(newBuyer);
 
             // Send a PATCH request to update the vehicle data
-            fetch(`http://localhost:3000/vehicles/${carId}`, {
+            fetch(`https://autoavenue.onrender.com/vehicles/${carId}`, {
                 method: 'PATCH',
                 headers: {
                     'Content-Type': 'application/json',
@@ -263,7 +263,7 @@ function updateBuyerDetails(carId){
 //Display potential buyers
 // Function to fetch and display potential buyers for a specific vehicle
 function fetchAndDisplayBuyers(vehicleId) {
-    fetch(`http://localhost:3000/vehicles/${vehicleId}`)
+    fetch(`https://autoavenue.onrender.com/vehicles/${vehicleId}`)
       .then((response) => response.json())
       .then((data) => {
 
